@@ -47,4 +47,4 @@ Use admin/admin for user/password for the first time, after that It will ask you
  </p>
 
 **Thanks**
-[James Docker](https://github.com/spurin) Captian who was my mentor during this process.
+[James](https://github.com/spurin) Docker Captian who was my mentor during this process.
