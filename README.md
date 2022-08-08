@@ -45,3 +45,6 @@ Use admin/admin for user/password for the first time, after that It will ask you
 <p align="center">
     <img width="500" height="300" src="img/pmm-dashboard.png">
  </p>
+
+**Thanks**
+[James Docker](https://github.com/spurin) Captian who was my mentor during this process.
