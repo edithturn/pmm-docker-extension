@@ -46,5 +46,5 @@ Use admin/admin for user/password for the first time, after that It will ask you
     <img width="500" height="300" src="img/pmm-dashboard.png">
  </p>
 
-**Thanks**
+** Special thanks to **
 [James](https://github.com/spurin) Docker Captian who was my mentor during this process.
