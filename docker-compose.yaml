@@ -1,0 +1,32 @@
+services:
+
+  healthcheck:
+    container_name: healthcheck
+    command: echo pmm healthcheck succeeded
+    image: alpine
+    depends_on:
+      pmm-server:
+        condition: service_healthy
+
+  pmm-server:
+    container_name: pmm
+    image: percona/pmm-server:2
+    platform: linux/amd64
+    ports:
+     - 32433:80
+    volumes:
+     - pmm-data:/srv
+    healthcheck:
+      test: curl localhost/server/login | grep Unauthorized
+      interval: 1s
+      retries: 100
+      start_period: 1s
+      timeout: 10s
+
+volumes:
+  pmm-data:
+
+# Test Docker Compose
+# docker compose up
+# docker compose down
+# Accessing to the dashboard: http://localhost:32433/graph/login

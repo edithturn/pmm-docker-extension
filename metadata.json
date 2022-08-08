@@ -1,0 +1,13 @@
+{
+  "icon": "percona.svg",
+  "vm": {
+    "composefile": "docker-compose.yaml"
+  },
+  "ui": {
+    "dashboard-tab": {
+      "title": "Percona (PMM)",
+      "src": "index.html",
+      "root": "ui"
+    }
+  }
+}
