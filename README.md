@@ -26,13 +26,19 @@ docker extension install edithturn/pmm-docker-extension:latest
 docker extension update edithturn/pmm-docker-extension:latest
 
 # Extension Mode Debug
-docker extension dev debug edithturn/pmm-server-extension:lates
+docker extension dev debug edithturn/pmm-docker-extension:latest
 ```
 
 ```bash
 # Lists all installed extensions
 docker extension ls
 ```
+
+## Docker extension workflow
+
+<p align="center">
+    <img width="500" height="300" src="img/docker-extension.png">
+</p>
 
 ## Navigate to PMM extension
 
