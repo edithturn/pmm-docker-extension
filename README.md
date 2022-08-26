@@ -56,3 +56,10 @@ Use admin/admin for user/password for the first time, after that It will ask you
 
 Special thanks to
 **[James Spurin](https://github.com/spurin) Docker Captian** who was my mentor during this process.
+
+## Resources
+
+- [Docker Extensions Oficial Documentation](https://www.docker.com/products/extensions/)
+- [Docker Extensions Examples](https://github.com/docker/extensions-sdk.git)
+- [Percona Monitoring Management (PMM)](https://www.percona.com/software/database-tools/percona-monitoring-and-management)
+- [Installing Docker extension on Linux](https://www.youtube.com/watch?v=rGq4vYrtHSY)

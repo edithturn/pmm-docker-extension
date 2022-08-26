@@ -5,7 +5,7 @@ LABEL org.opencontainers.image.title="pmm-server-docker-extension" \
     com.docker.desktop.extension.api.version=">= 0.2.3" \
     com.docker.desktop.extension.icon=https://upload.wikimedia.org/wikipedia/commons/f/fe/Percona.svg \
     com.docker.extension.screenshots="[{\"alt\": \"pmm\", \"url\": \"https://docs.percona.com/percona-monitoring-and-management/_images/PMM_Home_Dashboard.png\"}]" \
-    com.docker.extension.detailed-description="dsfds adsfadsfad adsfasdf" \
+    com.docker.extension.detailed-description="My beautiful dashboard for PMM extension" \
     com.docker.extension.publisher-url="" \
     com.docker.extension.additional-urls="" \
     com.docker.extension.changelog=""
