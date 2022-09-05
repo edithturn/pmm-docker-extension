@@ -11,6 +11,8 @@ LABEL org.opencontainers.image.title="pmm-server-docker-extension" \
     com.docker.extension.changelog=""
 
 COPY docker-compose.yaml .
-COPY metadata.json .
-COPY percona.svg .
 COPY ui ui
+COPY percona.svg .
+COPY metadata.json .
+
+

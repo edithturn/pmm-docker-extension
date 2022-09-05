@@ -1,16 +1,13 @@
 # Docker Extension for PMM
 
-🛑🛑 It is unsupported software and not published, please consider using the officially supported method of installing PMM Server https://docs.percona.com/percona-monitoring-and-management/setting-up/index.html :)
+**PMM** is an open source database monitoring solution. It provides great metrics of **MySQL**, **PostgreSQL** and **MongoDB** in depth which helps to improve performance of the database stack and helps to find root cause of any issue.
 
-Docker extension for Percona Monitoring and Management (PMM). We will learn how to run, install and deploy our [Docker Extension](https://docs.docker.com/desktop/extensions/).
+🛑🛑 The Docker extension for Percona Monitoring (PMM), is not published yet on Percona Docker Hub or Marketplace. The tests are in progress and we hope to see you soon in the marketplace.
+If you are interested in using PMM please consider using the officially supported method of [installing PMM Server](https://docs.percona.com/percona-monitoring-and-management/setting-up/index.html)
 
-**PMM** is a best-of-breed open source database monitoring solution. It provides great metrics of **MySQL** and **MongoDB** in depth which helps to improve performance of the database stack and helps to find root cause of any issue.
-
-See the [PMM](https://www.percona.com/doc/percona-monitoring-and-management/2.x/index.html) Documentation for more information.
-
-  <p align="center">
+<p align="center">
     <img width="500" height="300" src="img/intro-pmm-docker-extension.png">
-  </p>
+</p>
 
 ## Build and install PMM Docker extension
 
@@ -33,12 +30,6 @@ docker extension dev debug edithturn/pmm-docker-extension:latest
 # Lists all installed extensions
 docker extension ls
 ```
-
-## Docker extension workflow
-
-<p align="center">
-    <img width="500" height="300" src="img/docker-extension.png">
-</p>
 
 ## Navigate to PMM extension
 
