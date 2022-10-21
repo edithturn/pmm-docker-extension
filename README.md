@@ -1,8 +1,9 @@
-# Docker Extension for PMM
+# Percona Monitoring and Management (PMM) Docker Extension
 
 **PMM** is an open source database monitoring solution. It provides great metrics of **MySQL**, **PostgreSQL** and **MongoDB** in depth which helps to improve performance of the database stack and helps to find root cause of any issue.
 
-🛑🛑 The Docker extension for Percona Monitoring (PMM), is not published yet on Percona Docker Hub or Marketplace. The tests are in progress and we hope to see you soon in the marketplace.
+🛑🛑 The Docker extension for Percona Monitoring (PMM), is not published yet on Percona Docker Hub or Marketplace. This is a work in progress.
+
 If you are interested in using PMM please consider using the officially supported method of [installing PMM Server](https://docs.percona.com/percona-monitoring-and-management/setting-up/index.html)
 
 <p align="center">
