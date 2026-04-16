@@ -2,13 +2,8 @@
 
 **PMM** is an open source database monitoring solution. It provides great metrics of **MySQL**, **PostgreSQL** and **MongoDB** in depth which helps to improve performance of the database stack and helps to find root cause of any issue.
 
-⚠️ The Docker extension for Percona Monitoring (PMM), is not published yet on Percona Docker Hub or Marketplace. This is a work in progress.
+⚠️ The Docker extension for Percona Monitoring (PMM), is not published yet on Percona Docker Hub or Marketplace. This is a demo in my personal account.
 
-**This is Work-in-progress** 🚧 🚜
-
-- [x] Build Docker Compose File
-- [x] Set UI
-- [ ] Final Testing
 
 If you are interested in using PMM please consider using the officially supported method of [installing PMM Server](https://docs.percona.com/percona-monitoring-and-management/setting-up/index.html)
 
